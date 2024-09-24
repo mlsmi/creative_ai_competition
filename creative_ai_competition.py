@@ -41,7 +41,7 @@ def extract_max_tokens(prompt):
 
     characters_match = re.search(r'(\d+)\s*(?:characters?|chars?|c)\s*(?:max|maximum|limit|long)', prompt, re.IGNORECASE)
     if characters_match:
-        return int(int(characters_match.group(1)) * 0.3)  # Assuming 3 characters per token on average
+        return int(int(characters_match.group(1)) * 0.3)  # Assuming 3.33 characters per token on average
 
     # Default case
     return 300  # Increased default for prompts without specific length mentions
