@@ -11,7 +11,7 @@ This Python script uses OpenAI's gpt-4o model to generate creative responses to 
 
 1. Clone this repository:
     ```
-    git clone https://github.com/YOUR_GITHUB_USERNAME/creative-ai-competition.git
+    git clone https://github.com/mlsmi/creative-ai-competition.git
     cd creative-ai-competition
     ```
 
